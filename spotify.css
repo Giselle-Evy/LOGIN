@@ -1,0 +1,110 @@
+header {
+    background-color: rgba(67, 0, 122, 0.856);
+   color: rgb(255, 159, 239);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 0 30px rgb(203, 159, 253); /*lo primero es para colocar el borde de la sombra*/
+}
+body {
+    background-color: black;
+    box-shadow: 0 0 30px rgb(119, 0, 255); /*lo primero es para colocar el borde de la sombra*/
+    
+}
+
+.logo {
+ padding-left: 4x;
+ 
+}
+
+.minifras {
+    font-size: 12px;
+    color: rgb(255, 0, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.contenedor1 {
+    display: flex; /*para ajustar automaticamente los elementos secundarios*/
+    flex-direction: row; 
+    justify-content: space-around; /* el space-around es para reducir el espacio entre las secciones */
+    align-items: flex-start; /* indica que los elementos secundarios se alinearán en la parte superior del contenedor flexible */       
+}
+
+
+.Logo1 {
+    margin-left: 90%; /* Ajusta el margen izquierdo para reducir el espacio */
+}
+.Logo {
+    margin-left: 10px; /* Ajusta el margen izquierdo para reducir el espacio */
+}
+.Nombreaplicacion {
+
+            width: 100%;
+            margin-right: 18px; /* Ajusta el margen derecho para reducir el espacio */
+        }
+.Nombreaplicacion1 {
+
+            width: 100%;
+            margin-left: -95%; /* Ajusta el margen derecho para reducir el espacio */
+        }
+
+.posicionamiento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.posicionamiento1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80vh;
+}
+
+.capsulaListas{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(149, 78, 241);
+    color:  rgb(83, 0, 161);
+    width: 20%;
+    height: 90%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+
+.login {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color:  rgb(132, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 70%;
+    box-shadow: 0 0 30px rgb(119, 0, 255); /*lo primero es para colocar el borde de la sombra*/
+    text-align: center;
+}
+.h2 {
+    font-size: 30px;
+}
+
+ #margen {
+    margin-block-end: 20px;
+ }
+ 
+ button {
+    color: white; /* Cambia el color del texto del botón a blanco */
+    background-color:  rgb(207, 156, 254); /* Cambia el color de fondo del botón a azul */
+    border: none; /* Quita el borde del botón (opcional) */
+    padding: 10px 30px; /* Añade un relleno al botón (opcional) */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón (opcional) */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-size: 20px; /* Cambia el tamaño del texto del campo de entrada  */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Cambia el tipo de letra o fuente */
+}
